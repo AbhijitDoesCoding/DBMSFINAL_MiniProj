@@ -1,0 +1,205 @@
+.admin-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: #ddd;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .admin-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .admin-tabs button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .admin-tabs button.active {
+    color: #fff;
+    border-bottom: 3px solid #6200ea;
+  }
+  
+  .tab-content {
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 5px;
+
+  }
+  
+  .games-table,
+    .teams-table,
+    .players-table,
+    .login-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    }
+  
+    .games-table th,
+    .teams-table th,
+    .players-table th,
+    .login-table th,
+    .games-table td,
+    .teams-table td,
+    .players-table td,
+    .login-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #444;
+    }
+
+
+    .games-table th,
+    .teams-table th,
+    .players-table th,
+    .login-table th {
+    background-color: #333;
+    color: #fff;
+    }
+
+
+    .games-table tr:hover,
+    .teams-table tr:hover,
+    .players-table tr:hover,
+    .login-table tr:hover {
+      background-color: #3a3a3a;
+    }
+  .error {
+    color: #ff4d4d;
+    margin: 10px 0;
+  }
+  
+  /* Override some QueryBox styles when used in the admin page */
+  .admin-container .query-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .query-section h2 {
+    margin-bottom: 15px;
+  }
+  .admin-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: #ddd;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .admin-tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .admin-tabs button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .admin-tabs button.active {
+    color: #fff;
+    border-bottom: 3px solid #6200ea;
+  }
+  
+  .tab-content {
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 5px;
+  }
+  
+  /* New styles for sub-tabs inside the viewTables tab */
+  .sub-tabs {
+    display: flex;
+    flex-wrap: nowrap;   /* Prevent wrapping */
+    overflow-x: auto;    /* Enable horizontal scrolling if needed */
+    overflow-y: hidden;  /* Hide any vertical scrollbar that might appear */
+    white-space: nowrap; /* Keep button labels on one line */
+  }
+  
+  
+  .sub-tabs button {
+    padding: 8px 15px;
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .sub-tabs button.active {
+    color: #fff;
+    border-bottom: 3px solid #6200ea;
+  }
+  
+  /* Common table styles for all tables */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  .data-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .data-table tr:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    margin: 10px 0;
+  }
+  
+  /* Override QueryBox styles if needed */
+  .admin-container .query-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .query-section h2 {
+    margin-bottom: 15px;
+  }
+  
